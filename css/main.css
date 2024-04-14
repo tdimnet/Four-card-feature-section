@@ -50,3 +50,12 @@ main {
         font-weight: var(--fw-regular);
     }
 }
+
+.card {
+    background-color: var(--white);
+    border-top: 2px solid black;
+    margin-bottom: 1.5625rem;
+    box-shadow: 0 0 10px var(--grayish-blue);
+    border-radius: .5rem;
+    padding: 1.75rem;
+}
