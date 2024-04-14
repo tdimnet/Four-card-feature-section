@@ -21,20 +21,21 @@
 }
 
 body {
-    font-family: var(--ff-poppins);
     background-color: var(--very-light-gray);
+    font-family: var(--ff-poppins);
 }
 
 main {
-    width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5.3125rem;
+    width: 90%;
 }
 
 .product-hightlight {
-    text-align: center;
     color: var(--very-dark-blue);
+    margin-bottom: 4.75rem;
+    text-align: center;
 
     h1 {
         font-size: 1.5rem;
@@ -46,16 +47,44 @@ main {
     }
 
     p {
-        line-height: 1.5rem;
         font-weight: var(--fw-regular);
+        line-height: 1.5rem;
     }
 }
 
 .card {
     background-color: var(--white);
-    border-top: 2px solid black;
-    margin-bottom: 1.5625rem;
-    box-shadow: 0 0 10px var(--grayish-blue);
     border-radius: .5rem;
+    border-top: 4px solid black;
+    box-shadow: 0 0 10px var(--grayish-blue);
+    color: var(--very-dark-blue);
+    margin-bottom: 1.5625rem;
     padding: 1.75rem;
+    text-align: right;
+
+    h2 {
+        font-weight: var(--fw-semi-bold);
+        text-align: left;
+    }
+
+    p {
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+}
+
+.supervisor {
+    border-color: var(--cyan);
+}
+
+.team-builder {
+    border-color: var(--red);
+}
+
+.karma {
+    border-color: var(--orange);
+}
+
+.calculator {
+    border-color: var(--blue);
 }
