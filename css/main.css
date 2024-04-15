@@ -23,7 +23,7 @@
 body {
     background-color: var(--very-light-gray);
     font-family: var(--ff-poppins);
-    padding-top: 5.1rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
@@ -49,6 +49,7 @@ main {
         font-size: clamp(1.5rem, 2.5vw, 2.25rem);
         font-weight: var(--fw-extra-light);
         line-height: 2rem;
+        margin-top: 0;
 
         @media screen and (min-width: 1100px) {
             line-height: 2.5rem;
