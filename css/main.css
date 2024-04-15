@@ -23,6 +23,7 @@
 body {
     background-color: var(--very-light-gray);
     font-family: var(--ff-poppins);
+    padding-bottom: 5rem;
 }
 
 main {
@@ -47,6 +48,7 @@ main {
     h1 {
         font-size: clamp(1.5rem, 2.5vw, 2.25rem);
         font-weight: var(--fw-extra-light);
+        line-height: 2.5rem;
 
         span {
             font-weight: var(--fw-semi-bold);
@@ -77,7 +79,7 @@ main {
     background-color: var(--white);
     border-radius: .5rem;
     border-top: 4px solid black;
-    box-shadow: 0 0 10px var(--grayish-blue);
+    box-shadow: 0 15px 30px -11px #83A6D2;
     color: var(--very-dark-blue);
     margin-bottom: 1.5625rem;
     padding: 1.75rem;
@@ -90,11 +92,15 @@ main {
     h2 {
         font-weight: var(--fw-semi-bold);
         text-align: left;
+        font-size: 1.25rem;
     }
 
     p {
-        margin-bottom: 2rem;
+        margin-bottom: 1.25rem;
         text-align: left;
+        font-size: .8125rem;
+        line-height: 1.5rem;
+        color: var(--grayish-blue);
     }
 }
 
