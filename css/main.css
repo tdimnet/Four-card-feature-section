@@ -23,13 +23,13 @@
 body {
     background-color: var(--very-light-gray);
     font-family: var(--ff-poppins);
+    padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
 main {
     margin-left: auto;
-    margin-right: auto;
-    margin-top: 5.3125rem;
+    margin-right: auto;    
     width: 90%;
 
     @media screen and (min-width: 1100px) {
@@ -48,7 +48,11 @@ main {
     h1 {
         font-size: clamp(1.5rem, 2.5vw, 2.25rem);
         font-weight: var(--fw-extra-light);
-        line-height: 2.5rem;
+        line-height: 2rem;
+
+        @media screen and (min-width: 1100px) {
+            line-height: 2.5rem;
+        }
 
         span {
             font-weight: var(--fw-semi-bold);
